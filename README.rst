@@ -7,7 +7,7 @@ This is the code that allowed http://www.buscatchers.com/ to work before it was 
 Although the source code is fairly messy, it is fully functional at the present time.  
 At some point, I would like to develop a python framework for extracting data from any website, including websites that use javascript extensively. 
 
-The code uses Selenium + Firefox to navigate through the websites, and Scrapy to parse html.  The code has the following dependencies: 
+The code uses Selenium+Firefox to navigate through the websites, and Scrapy to parse html. The code has the following dependencies: 
 
 Dependencies
 -------------
@@ -50,7 +50,7 @@ etc.
 
 The code supports the following features: 
 
-1) Extensive logging, automatic emailing of log files (in the crawl_log directory)
+1) Extensive logging, automatic emailing of log files (in the crawl_log directory).
 
 2) 	Direct conversion from parsed html to MySQL insert statements (in the sql_files directory).  The outputs of the scripts are writtent to .sql files.  
 	I then use a script (dump_sql.py) to import the .sql files and remove all the loaded queries from the .sql files.
@@ -73,7 +73,7 @@ file name of the output sql files is set by the :meth:`MyController.BusCatcher.s
 The settings for the scraping are found in python_code/MyDict.py.  This file determines whether the scraping is done in the background using pyvirtualdisplay,
 how fast the scraping happens, etc.  
 
-Contact me at nicodjimenez [at] gmail.com if you have any questions / comments.  
+Contact me at nicodjimenez [at] gmail.com if you have any questions/comments.  
 
 
 
